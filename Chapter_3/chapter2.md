@@ -23,3 +23,12 @@
 - Data warehouses are optimized for complex analytical queries from various sources
 - Data lakes offer scalability and flexibility
 - Data lakehouses
+
+# Data Quality
+
+"Data quality checks and validation with SQL":
+
+- Importance of Data Quality: Ensuring data quality, completeness, and correctness is crucial as data moves through the ETL process to avoid truncation, loss, or corruption.
+- Common Checks: Methods include counting rows and columns, checking for nulls, empty rows, duplicates, and default values.
+- Freshness Checks: Implementing freshness checks to ensure data is up-to-date, such as agreeing on data warehouse SLAs.
+- Practical Example: Demonstrated how to compare row counts between the source and the data warehouse using SQL and pandas to ensure data accuracy.
